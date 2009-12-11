@@ -5,8 +5,8 @@
         Name = "Simple NSLog()";
         IsMenuItem = NO;
         OnlyAtBOL = YES;
-        TextString = "NSLog(@\"<#message#>\");";
+        TextString = "NSLog$(PreFunctionArgsSpacing)($(InFunctionArgsSpacing)@\"<#message#>\"$(InFunctionArgsSpacing));";
         CompletionPrefix = tblog;
         IncludeContexts = ("xcode.lang.objc.implementation");
-    }
+    },
 )
