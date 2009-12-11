@@ -1,0 +1,13 @@
+(
+    {
+        Identifier = objc.tinybird.nslog;
+        BasedOn = objc;
+        IsMenuItem = YES;
+        Name = "Simple NSLog()";
+        TextString = "NSLog(@\"<#message#>\");";
+        // is the text displayed inside the placeholder.
+        CompletionPrefix = "tblog";
+        IncludeContexts = ("xcode.lang.objc.implementation");
+        OnlyAtBOL = YES;
+    }
+)
